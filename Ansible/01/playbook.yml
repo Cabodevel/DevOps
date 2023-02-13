@@ -6,3 +6,11 @@
     service:
       name: nginx
       state: started
+# - hosts: webserver1
+#   become: true
+#   roles:
+#     - nginx
+# - hosts: database
+#   become: true
+#   roles:
+#     - mysql
