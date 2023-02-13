@@ -3,4 +3,4 @@
 - name: start nginx
   service:
     name: nginx
-    state: started
+    state: startedWorkbench.action.reloadWindow
